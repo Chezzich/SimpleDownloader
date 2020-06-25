@@ -1,0 +1,14 @@
+D:\Навчання\Курс 3\Mer\Cursak\Cursak\bin\Debug\Cursak.exe.config
+D:\Навчання\Курс 3\Mer\Cursak\Cursak\bin\Debug\Cursak.exe
+D:\Навчання\Курс 3\Mer\Cursak\Cursak\bin\Debug\Cursak.pdb
+D:\Навчання\Курс 3\Mer\Cursak\Cursak\obj\Debug\Cursak.csprojAssemblyReference.cache
+D:\Навчання\Курс 3\Mer\Cursak\Cursak\obj\Debug\MainWindow.g.cs
+D:\Навчання\Курс 3\Mer\Cursak\Cursak\obj\Debug\App.g.cs
+D:\Навчання\Курс 3\Mer\Cursak\Cursak\obj\Debug\Cursak_MarkupCompile.cache
+D:\Навчання\Курс 3\Mer\Cursak\Cursak\obj\Debug\Cursak_MarkupCompile.lref
+D:\Навчання\Курс 3\Mer\Cursak\Cursak\obj\Debug\MainWindow.baml
+D:\Навчання\Курс 3\Mer\Cursak\Cursak\obj\Debug\Cursak.g.resources
+D:\Навчання\Курс 3\Mer\Cursak\Cursak\obj\Debug\Cursak.Properties.Resources.resources
+D:\Навчання\Курс 3\Mer\Cursak\Cursak\obj\Debug\Cursak.csproj.GenerateResource.cache
+D:\Навчання\Курс 3\Mer\Cursak\Cursak\obj\Debug\Cursak.exe
+D:\Навчання\Курс 3\Mer\Cursak\Cursak\obj\Debug\Cursak.pdb
