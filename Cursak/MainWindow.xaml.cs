@@ -1,23 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Collections.Specialized;
 using System.IO;
 using System.Linq;
 using System.Net;
-using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
-using System.Web;
 using System.Windows;
 using System.Windows.Controls;
 using System.Xml.Serialization;
 
 namespace Cursak
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         FileDownload file;
@@ -57,61 +50,6 @@ namespace Cursak
             string name = tbName.Text;
             if (path != String.Empty && name != String.Empty)
             {
-                //if (path.Contains("youtube"))
-                //{
-                //    Uri videoUri = new Uri(path);
-                //    string videoID = HttpUtility.ParseQueryString(videoUri.Query).Get("v");
-                //    string videoInfoUrl = "https://www.youtube.com/get_video_info?video_id=" + videoID + "&el=detailpage";
-
-                //    HttpWebRequest request = (HttpWebRequest)WebRequest.Create(videoInfoUrl);
-                //    HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-
-                //    Stream responseStream = response.GetResponseStream();
-                //    StreamReader reader = new StreamReader(responseStream, Encoding.GetEncoding("utf-8"));
-
-                //    string videoInfo = HttpUtility.HtmlDecode(reader.ReadToEnd());
-
-                //    NameValueCollection videoParams = HttpUtility.ParseQueryString(videoInfo);
-
-                //    //if (videoParams["reason"] != null)
-                //    //{
-                //    //    lblMessage.Text = videoParams["reason"];
-                //    //    return;
-                //    //}
-
-                //    string[] videoURLs = videoParams["url_encoded_fmt_stream_map"].Split(',');
-                //    string sURL;
-                //    NameValueCollection urlParams;
-
-                //    //foreach (string vURL in videoURLs)
-                //    //{
-                //    //    if (vURL == "medium - mp4")
-                //    //    {
-                //            sURL = HttpUtility.HtmlDecode("mp4");
-                //            urlParams = HttpUtility.ParseQueryString(sURL);
-                //            string videoFormat = HttpUtility.HtmlDecode(urlParams["type"]);
-
-                //            sURL = HttpUtility.HtmlDecode(urlParams["url"]);
-                //            sURL += "&signature=" + HttpUtility.HtmlDecode(urlParams["sig"]);
-                //            sURL += "&type=" + videoFormat;
-                //            sURL += "&title=" + HttpUtility.HtmlDecode(videoParams["title"]);
-
-                //            path += sURL;
-                //            //videoFormat = urlParams["quality"] + " - " + videoFormat.Split(';')[0].Split('/')[1];
-
-                //            //string videoTitle = urlParams["title"] + " " + "medium - mp4";
-                //            //string videoFormt = HttpUtility.HtmlDecode(urlParams["type"]);
-                //            //videoFormt = videoFormt.Split(';')[0].Split('/')[1];
-
-                //            //string downloadPath = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
-                //           // path = string.Format(Path.Combine(downloadPath, "Downloads\\{0}.{1}"), videoTitle, videoFormt);
-
-                //            //WebClient webClient = new WebClient();
-                //            //webClient.DownloadFileAsync(new Uri(sURL), sFilePath);
-                //    //    }
-                //    //}
-                //}
-
                 file = new FileDownload(path, name, 100);
                 file._id = id;
                 ProgressBar bar = new ProgressBar();
